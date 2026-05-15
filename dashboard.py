@@ -303,7 +303,7 @@ for xv, lbl in [("Tem-24", "← Eğitim | Test →"), ("Oca-25", "← Test | Tah
     fig.add_vline(x=xv, line_dash="dot", line_color="#F39200", line_width=1.5)
     fig.add_annotation(x=xv, y=0, text=lbl, showarrow=False,
                        font=dict(size=9, color="#F39200"),
-                       yref="paper", yanchor="bottom", y=0.02)
+                       yref="paper", yanchor="bottom",)
 
 fig.update_layout(
     height=400, margin=dict(l=20, r=20, t=20, b=20),
